@@ -7,7 +7,8 @@ This is a library to allow any pins to be connected to a P10 LED display.
 #### P10_BitBang(uint16_t _w, uint16_t _h,int8_t _clk, int8_t _sclk, int8_t _data, int8_t _en, int8_t _a, int8_t _b)
 #### void begin()
 #### void clear()
-#### void print()
+#### void printData()
+All other functions are found [https://github.com/adafruit/Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library)
 
 ## Example
 
@@ -41,6 +42,6 @@ void setup()
 
 void loop() 
 {
-    LEDdisplay.print();
+    LEDdisplay.printData();
 }
 ```
