@@ -28,5 +28,5 @@ void setup()
 
 void loop() 
 {
-    LEDdisplay.print();
+    LEDdisplay.printData();
 }

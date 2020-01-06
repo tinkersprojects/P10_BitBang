@@ -20,7 +20,7 @@ class P10_BitBang : public Adafruit_GFX
     void drawPixel(int16_t x, int16_t y, uint16_t color);
     void startWrite();
     void endWrite();
-    void print();
+    void printData();
     void begin();
 
     int8_t _enPin;

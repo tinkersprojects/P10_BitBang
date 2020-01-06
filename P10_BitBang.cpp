@@ -113,7 +113,7 @@ void  P10_BitBang::endWrite(void)
     }
 }
 
-void  P10_BitBang::print(void)
+void  P10_BitBang::printData(void)
 {
   //startWrite();
   //endWrite();
