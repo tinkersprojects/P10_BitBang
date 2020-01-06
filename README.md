@@ -1,16 +1,11 @@
 # P10_BitBang Library
- 
+This is a library to allow any pins to be connected to a P10 LED display. 
 
 ## Functions
-### SETUP
 #### P10_BitBang(uint16_t _w, uint16_t _h,int8_t _clk, int8_t _sclk, int8_t _data, int8_t _en, int8_t _a, int8_t _b)
 #### void begin()
-
-
-### CONTROL 
 #### void clear()
 #### void print()
-
 
 ## Example
 
@@ -28,7 +23,6 @@
 #define height 16
 
 P10_BitBang LEDdisplay(width, height,clkPin, sclkPin, DataPin, enPin, aPin, bPin);
-  
 
 void setup() 
 {

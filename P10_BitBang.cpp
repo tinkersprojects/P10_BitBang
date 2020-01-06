@@ -75,7 +75,6 @@ void  P10_BitBang::startWrite(void)
 
 void  P10_BitBang::endWrite(void)
 {
-  Serial.println("endWrite");
     for(int i = 0; i < 4; i++)
     {
       //ESP.wdtFeed();
